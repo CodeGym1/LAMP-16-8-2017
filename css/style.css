@@ -1,4 +1,8 @@
-
+body{
+    font-family: Tahoma;
+    font-size: 15px;
+    width: auto;
+}
 .danhsach ul li{
     text-decoration: none;
     list-style: none;
@@ -72,12 +76,15 @@
     height: 50px;
 }
 .list-group .ds{
-    height: 65px;
+    height: 60px;
     line-height: 50px;
     background-color: #F7F8F9;
 }
 .list-group .ds a{
     color: black;
+}
+.list-group .ds a:hover{
+    color: #FF5C01;
 }
 .footer-over{
     background-color: #F1F6F8;
@@ -124,4 +131,13 @@ a{
     padding-top: 10px;
     padding-bottom: 5px;
     margin-top: 5px;
+}
+.gach_duoi{
+    background-color: #FF5C01;
+    height: 2px;
+    width: 50%;
+}
+.gach_full{
+    background-color: #FF5C01;
+    height: 2px;
 }
